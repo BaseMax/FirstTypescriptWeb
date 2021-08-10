@@ -25,4 +25,10 @@ You can easily use `import` the other files and export default in the source.
 
 The output file is just a single JS file and it's available at `script.js` at the root outside of `src` directory.
 
+## TODO
+
+Currently, webpack will not work if the script.js file exists at the root. and we have to delete that file manually every time. It's best if we automate it to ignore the `script.js` file in webpack stage or limit the webpack processing only on the `src` directory and not out of that.
+
+Any kind of help is welcome. send your Pull request. Thanks.
+
 © Copyright Max Base, 2021
