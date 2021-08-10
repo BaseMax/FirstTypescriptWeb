@@ -4,4 +4,12 @@ A starter package to develop client website in **Typescript**, this config will 
 
 **Demo:** https://basemax.github.io/FirstTypescriptWeb/
 
+## Using
+
+```
+yarn install
+yarn b
+yarn serve
+```
+
 © Copyright Max Base, 2021
