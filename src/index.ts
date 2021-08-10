@@ -1,15 +1,5 @@
-// import { data } from './data.js';
-// alert( data.message );
-alert("Hey")
+import { message } from './data';
 
-// module SomeModule {
-//     export class RaceTrack {
-//         constructor(private host: Element) {
-//             host.appendChild(document.createElement("canvas"));
-//         }
-//     }
-// }
-  
-window.addEventListener("load", () => {
-    // var racetrack = new SomeModule.RaceTrack(document.getElementById("content"));
+window.addEventListener(`load`, () => {
+    alert('Hey' + message)
 })
