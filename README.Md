@@ -16,4 +16,13 @@ yarn b
 yarn serve
 ```
 
+### Input Source
+
+All of your sources are available at the `src/` directory and the main entry point is `src/index.js`.
+You can easily use `import` the other files and export default in the source.
+
+### Output
+
+The output file is just a single JS file and it's available at `script.js` at the root outside of `src` directory.
+
 © Copyright Max Base, 2021
