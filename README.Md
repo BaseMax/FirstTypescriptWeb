@@ -6,6 +6,10 @@ A starter package to develop client website in **Typescript**, this config will 
 
 ## Using
 
+At first remove `script.js` file at the root. If you are a linux, unix user, you can use `yarn b_try` to remove `script.js` file and try to build...
+
+At next:
+
 ```
 yarn install
 yarn b
