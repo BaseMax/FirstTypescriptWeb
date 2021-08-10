@@ -1,0 +1,39 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": "airbnb",
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "semi": [
+        2,
+        "never"
+      ],
+      "arrow-body-style": [
+        "error",
+        "as-needed"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-console": 0,
+      "class-methods-use-this": "off",
+      "react/jsx-uses-vars": "error",
+      "react/jsx-uses-react": "error",
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ]
+    }
+  }
+  

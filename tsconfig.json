@@ -89,7 +89,7 @@
         /* Additional Checks */
 
         /* Report errors on unused locals. */
-        "noUnusedLocals": true,
+        "noUnusedLocals": false, /* TODO */
 
         /* Report errors on unused parameters. */
         "noUnusedParameters": true,
