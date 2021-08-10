@@ -38,7 +38,7 @@
         // "outDir": "ts-build",
 
         /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
-        "rootDir": "./src/",
+        // "rootDir": "./src/",
 
         /* Enable project compilation */
         "composite": false,
@@ -66,7 +66,7 @@
         "strict": true,
 
         /* Raise error on expressions and declarations with an implied 'any' type. */
-        "noImplicitAny": true,
+        "noImplicitAny": false,
 
         /* Enable strict null checks. */
         "strictNullChecks": true,
