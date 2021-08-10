@@ -21,6 +21,10 @@
         "error",
         "never"
       ],
+      "quotes": [
+          "error",
+          "double"
+      ],
       "no-console": 0,
       "class-methods-use-this": "off",
       "react/jsx-uses-vars": "error",
