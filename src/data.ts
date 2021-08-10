@@ -1,1 +1,1 @@
-export const message = `Hey`
+export const message = `Max`
