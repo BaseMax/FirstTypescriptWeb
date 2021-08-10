@@ -4,7 +4,7 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/YourEntryFile.ts",
+    main: "./src/index.ts",
   },
   output: {
     path: path.resolve(__dirname, './build'),
