@@ -1,0 +1,21 @@
+{
+    "name": "on-system-client",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Max Base <maxbasecode@gmail.com>",
+    "private": true,
+    "license": "GPLV3",
+    "scripts": {
+        "build": "yarn run tsc",
+        "build_try": "rm -f script.js && yarn run tsc",
+        "b": "webpack",
+        "serve": "yarn run live-server"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.1",
+        "ts-loader": "^9.2.5",
+        "typescript": "^4.3.5",
+        "webpack": "^5.49.1",
+        "webpack-cli": "^4.7.2"
+    }
+}
