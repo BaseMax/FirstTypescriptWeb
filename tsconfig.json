@@ -150,5 +150,6 @@
 
         /* Enables experimental support for emitting type metadata for decorators. */
         "emitDecoratorMetadata": false
-    }
+    },
+    "exclude": ["script.js"]
 }
